@@ -1,5 +1,7 @@
 project "glad"
     kind "StaticLib"
+    language "C++"
+    cppdialect "C++11"
 
     files {
         "include/**",
